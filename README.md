@@ -27,7 +27,6 @@ The `OnlineContacts` widget displays:
 - **Horizontal Scroll**: Users can scroll horizontally to view more favorite contacts.
 - **Dynamic Data Display**: The widget pulls data from a model (`chat_model.dart`) to populate the list of contacts.
 - **Overflow Handling**: Names are limited to the first word, with ellipsis for overflow, ensuring a clean UI even with long names.
-- **Styling**: The widget is designed with a dark theme, making it suitable for modern chat UIs.
 
 ## 📂 Project Structure
 
