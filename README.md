@@ -10,13 +10,37 @@ The `OnlineContacts` widget displays:
 - Each contact’s name (first name only), with overflow handling to maintain a clean layout
 
 ## 📸 Preview
-<img src="https://github.com/user-attachments/assets/c8812e1d-9dd0-444f-a5bc-4dbaf33a91d9" width="500"> |
+<img src="https://github.com/user-attachments/assets/fd23b639-018f-44fa-b00e-5a7d3b94d4dc" width="600">
 
 ## Screens 
 
-| Feature          |Image
-|------------------|---------------------|
-| Favorite Contacts| <img src="https://github.com/user-attachments/assets/03d8cb71-f40e-45c8-ab74-e7966d55c7f8" width="300"> |
+## 📸 App Screenshots
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/5cd72bfa-ab6f-4d9e-9166-4139371e29ca" width="200">
+      <br>
+      <b>Splash Screen</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/49c1cdb7-47eb-40d1-999a-3fb763f9b7db" width="200">
+      <br>
+      <b>Login Screen</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/afa07a9c-9142-4380-9174-9af1d5928c92" width="200">
+      <br>
+      <b>Sign Up Screen</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/f67eb9ea-97db-4049-9cce-1f055845cc77" width="200">
+      <br>
+      <b>Homepage Screen</b>
+    </td>
+  </tr>
+</table>
+
 
 
 
