@@ -31,12 +31,28 @@ class ChatList extends StatelessWidget {
               ),
               child: Row(
                 children: [
-                  CircleAvatar(
-                    backgroundColor: Colors.pink,
-                    radius: 28,
-                    backgroundImage: NetworkImage(
-                      chats[index].image,
-                    ),
+                  Stack(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: const Color.fromARGB(255, 222, 77, 125),
+                        radius: 28,
+                        backgroundImage: NetworkImage(
+                          chats[index].image,
+                        ),
+                      ),
+                      Positioned(
+                        bottom: 0,
+                        right: 0,
+                        child: CircleAvatar(
+                          backgroundColor: Colors.white,
+                          radius: 10,
+                          child: CircleAvatar(
+                            backgroundColor: Colors.green,
+                            radius: 8,
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
                   SizedBox(
                     width: 10,

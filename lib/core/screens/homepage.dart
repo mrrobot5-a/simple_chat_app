@@ -13,9 +13,18 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffEB2F4B),
+      // floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+      floatingActionButton: FloatingActionButton.small(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(10),
+        ),
+        backgroundColor: Colors.indigo,
+        onPressed: () {},
+        child: Icon(Icons.message),
+      ),
+      backgroundColor: Colors.indigo,
       appBar: AppBar(
-        backgroundColor: Color(0xffEB2F4B),
+        backgroundColor: Colors.indigo,
         actions: [
           IconButton(
             onPressed: () {},
